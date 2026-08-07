@@ -19,8 +19,8 @@ export default defineConfig({
       registerType: 'autoUpdate', // Automatically updates service worker cache
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'maskable-icon.svg'],
       manifest: {
-        name: 'My React Progressive Web App',
-        short_name: 'ReactPWA',
+        name: 'PWA Example',
+        short_name: 'PWA Example',
         description: 'A high-performance React application working offline.',
         theme_color: '#ffffff',
         background_color: '#ffffff',
